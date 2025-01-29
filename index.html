@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio">
+    <title>Balasiva V S - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <img src="https://fiverrbox.com/wp-content/uploads/2023/01/web-developer-3.jpeg" style="width:500px;height:300px;">
+        <h4>Hello! I'm <strong>Balasiva V S</strong>, a passionate web developer.</h4>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <h4>I'm a web developer with a background in front-end and back-end technologies. I love creating engaging websites and solving challenging problems.  Learning Enthusiast, interested in getting to know new technologies and get to involve in activities that promote the welfare and improvement of life of the common.</h4>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Node.js, Express</li>
+            <li>SQL, MongoDB</li>
+            <li>Version Control (Git)</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Rock-Paper_scissor Game</h3>
+            <p>Typical Game that we used to play during school days.  Consisting of Stone, Paper and Scissor, with each having its own weakness against an another.</p>
+            <a href="rps.html" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Guess-a Number</h3>
+            <p>It is a fun game in which player has to guess a random number between 1-100 that is already predetermined by the PC.</p>
+            <a href="gan.html" target="_blank">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you would like to collaborate or get in touch, feel free to reach out.</p>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Balasiva V S. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
